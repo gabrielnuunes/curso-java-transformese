@@ -1,0 +1,21 @@
+package introducao;
+
+public class PrimeiraClasse {
+	
+	public static void main(String[] args) {
+		
+		// Isso aqui é um comentário
+		
+		/* 		  
+		  Isso aqui é um comentário de mais de uma linha
+		  		  
+		 */
+		
+		// Este é o método para imprimir no console
+		System.out.println(" ");
+
+		
+		
+	}
+	
+}
