@@ -1,0 +1,13 @@
+package introducao;
+
+public class TiposStrings {
+
+	public static void main(String[] args) {
+		
+		String nome = "Tatiana";
+		
+		System.out.println("O nome dela é " + nome);
+		
+	}
+	
+}

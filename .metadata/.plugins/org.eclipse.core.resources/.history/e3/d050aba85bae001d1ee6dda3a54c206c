@@ -1,0 +1,13 @@
+package introducao;
+
+public class EntradaDeDados {
+
+	public static void main(String[] args) {
+		
+		String nome = "Gabriel";
+		
+		Scanner entrada 
+		
+	}
+	
+}

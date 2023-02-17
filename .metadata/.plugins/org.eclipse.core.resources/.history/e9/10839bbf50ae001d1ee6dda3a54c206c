@@ -1,0 +1,25 @@
+package introducao;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+		
+		
+		// Tipos primitivos
+		
+		// short, float, double, int, char, byte,
+		// long, boolean
+		
+		// Float e o Double
+		/* 
+		 Float 32 bits = Guarda 6/7 casad decimais
+		 Double 64 bits = Guarda 15 casas decimais
+		 */
+		
+		float salario = 120.5412312324234f;
+		double salarioMaior = 120.54d;
+		
+		
+	}
+	
+}

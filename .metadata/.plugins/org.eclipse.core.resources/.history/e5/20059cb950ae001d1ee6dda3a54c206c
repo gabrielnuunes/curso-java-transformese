@@ -1,0 +1,10 @@
+package introducao;
+
+public class TiposPrimitivos {
+
+	// Tipos primitivos
+	
+	// short, float, double, int, char, byte,
+	// long, boolean
+	
+}
