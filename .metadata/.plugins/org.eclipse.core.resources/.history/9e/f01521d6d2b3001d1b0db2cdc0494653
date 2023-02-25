@@ -1,0 +1,17 @@
+package controle;
+
+public class IF {
+
+	public static void main(String[] args) {
+		
+		String combustivel = "Gasolina";
+		
+		if(combustivel.equalsIgnoreCase("gasolina")) {
+			System.out.println("Abastecer gasolina!");
+		} else {
+			System.out.println("Abastecer álcool");
+		}
+		
+	}
+	
+}

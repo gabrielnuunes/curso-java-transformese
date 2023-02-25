@@ -1,8 +1,0 @@
-package introducao;
-
-public class PrimeiraClasse {
-
-	System.out.println("      ");
-	
-	
-}
