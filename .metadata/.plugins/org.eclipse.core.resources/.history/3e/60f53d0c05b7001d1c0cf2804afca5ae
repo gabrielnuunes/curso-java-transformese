@@ -1,0 +1,59 @@
+package controle;
+
+import java.util.Scanner;
+
+public class CorrecaoAtividade4 {
+
+	public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        // Aqui estou pegando as informações do valor
+        System.out.println("Qual o valor do boleto? ");
+        double valorBoleto = entrada.nextInt();
+
+        // Aqui deveria ser o dia
+        System.out.println("informe a data do vencimento do boleto: ");
+        int dataVencimento = entrada.nextInt();
+
+        System.out.println("informe a data do pagamento do boleto: ");
+        int dataPagamento = entrada.nextInt();
+
+        // Aqui vou guardar quantos dias de atraso, caso a conta esteja em atraso
+        double diasAtraso = dataPagamento - dataVencimento;
+
+
+        // Aqui estou verificando se a data de vencimento do boleto é maior ou igual a data de pagamento
+        // caso for, o pagamento está sendo feito em dia e sem juro
+        if (dataPagamento > dataPagamento || dataPagamento == dataVencimento) {        
+            System.out.println("O seu boleto está sendo pago em dia, obrigado(a)!");
+
+            
+        // Aqui estou verificando se a data de vencimento e maior que a de pagamento e se for quantos dias está em atraso
+        } else if ( dataPagamento < 1 || dataPagamento > 31 ) {
+            System.out.println("A data de pagamento informada é inválida");
+        } else if ( dataVencimento < 1 || dataVencimento > 31 ) {
+            System.out.println("A data de vencimento do boleto é inválida");
+        } else if (dataVencimento < dataPagamento && diasAtraso <= 10 ) {
+            
+        //Aqui estou calculando o juros pelo atraso
+        double juros = diasAtraso * 1.00;
+
+        // Aqui estou calculando o valor corrigido, pegando o valor dos juros e somando com o valor do boleto
+        double valorCorrigido = juros + valorBoleto;
+
+        System.out.printf
+            ("Olá o seu boleto, passou do dia de vencimento, será cobrado R$ 1,00 o dia. O novo valor é R$ %.2f \n", valorCorrigido);
+        } else if (dataVencimento < dataPagamento && diasAtraso > 10) {
+
+            double juros = diasAtraso * 1.50;
+            double valorCorrigido = juros + valorBoleto;
+            System.out.printf(
+                    "Olá o seu boleto, passou do dia de vencimento, será cobrado R$ 1,50 o dia. O novo valor é R$ %.2f \n",
+                    valorCorrigido);
+        }
+
+        entrada.close();
+    }
+	
+}
