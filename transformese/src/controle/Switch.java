@@ -31,6 +31,62 @@ public static void main(String[] args) {
 				break;
 		}
 		
+		 // Switch para mais de uma opção com mesmo valor
+
+        int hora = 10;
+
+        switch(hora) {
+            
+            case 1:
+            case 2:
+            case 4:
+            case 5:
+                System.out.println("Bom dia!");
+                break;
+            case 12:    
+            case 13:    
+            case 14:    
+            case 15:
+                System.out.println("Boa tarde!"); 
+                break;
+            case 19:
+            case 20:
+            case 21:
+            case 22:
+                System.out.println("Boa noite!"); 
+                break;
+            default:
+             System.out.println("A hora é inválida");
+             break;      
+        }
+
+        // A mesma verificação só que um ao lado do outro uma forma resumida
+        switch(hora) {
+            
+            case 1: case 2: case 3: case 4: case 5:
+                System.out.println("Bom dia!");
+                break;
+            case 12: case 13: case 14: case 15:
+                System.out.println("Boa tarde!"); 
+                break;
+            case 19: case 20: case 21: case 22:
+                System.out.println("Boa noite!"); 
+                break;
+            default:
+                System.out.println("A hora é inválida");
+                break;      
+        }
+
+        // A mesma verificação utilizando Switch expressions ( Expressões Switch - Java 12 )
+
+        switch (hora) {
+            case 1, 2, 3, 4, 5 -> System.out.println("Bom dia!");
+            case 12, 13, 14, 15 -> System.out.println("Boa tarde!");
+            case 19, 20, 21, 22 -> System.out.println("Bom dia!");
+            default -> System.out.println("A hora é inválida");
+         }
+
+		
 		
 		entrada.close();
 	}
