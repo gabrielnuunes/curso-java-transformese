@@ -1,4 +1,4 @@
-package orientacaoobjetos.flamengo;
+package orientacaoobjetos.encapsulamento.flamengo;
 
 public class ViniciusJr {
 	

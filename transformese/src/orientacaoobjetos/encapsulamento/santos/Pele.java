@@ -1,4 +1,4 @@
-package orientacaoobjetos.santos;
+package orientacaoobjetos.encapsulamento.santos;
 
 public class Pele {
 

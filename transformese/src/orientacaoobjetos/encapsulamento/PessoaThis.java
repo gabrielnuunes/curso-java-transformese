@@ -1,4 +1,4 @@
-package orientacaoobjetos;
+package orientacaoobjetos.encapsulamento;
 
 public class PessoaThis {
 

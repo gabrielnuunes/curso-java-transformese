@@ -1,6 +1,6 @@
-package orientacaoobjetos.santos;
+package orientacaoobjetos.encapsulamento.santos;
 
-import orientacaoobjetos.flamengo.ViniciusJr;
+import orientacaoobjetos.encapsulamento.flamengo.ViniciusJr;
 
 public class MarcosLeonardo {
 
