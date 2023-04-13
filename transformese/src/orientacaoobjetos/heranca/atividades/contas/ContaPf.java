@@ -1,21 +1,17 @@
 package orientacaoobjetos.heranca.atividades.contas;
 
+import orientacaoobjetos.heranca.atividades.titular.Titular;
+
 public class ContaPf {
 	
-	private String nomeTitular;
 	private int numeroConta;
+	protected double saldo;
+	// O nível Pacote ou Package
+	public Titular titular;
 	
-	public ContaPf(String nomeTitular, int numeroConta) {
-		this.nomeTitular = nomeTitular;
+	public ContaPf(int numeroConta, double saldo) {
 		this.numeroConta = numeroConta;
-	}
-
-	public String getNomeTitular() {
-		return nomeTitular;
-	}
-
-	public void setNomeTitular(String nomeTitular) {
-		this.nomeTitular = nomeTitular;
+		this.saldo = saldo;
 	}
 
 	public int getNumeroConta() {
@@ -25,7 +21,20 @@ public class ContaPf {
 	public void setNumeroConta(int numeroConta) {
 		this.numeroConta = numeroConta;
 	}
-	
+
+	public double getSaldo() {
+		return saldo;
+	}
+ 
+	public void sacar(double valorSaque) {
+		
+		if(saldo < valorSaque) {
+			System.out.println("Saldo insuficiente.");
+		} else {
+			this.saldo -= valorSaque;
+		}
+		
+	}
 	
 	
 	/*

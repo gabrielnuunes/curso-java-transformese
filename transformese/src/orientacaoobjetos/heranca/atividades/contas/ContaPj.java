@@ -1,15 +1,21 @@
 package orientacaoobjetos.heranca.atividades.contas;
 
+import java.util.Objects;
+
 public class ContaPj extends ContaPf{
 
 	private String nomeEmpresa;
 	private String numeroCNPJ;
 
-	public ContaPj(String nomeTitular, int numeroConta, String nomeEmpresa, String numeroCNPJ) {
-		super(nomeTitular, numeroConta);
+	public ContaPj(int numeroConta, String nomeEmpresa, double saldo, String numeroCNPJ) {
+		super(numeroConta, saldo);
+		
+		Objects.requireNonNull(nomeEmpresa);
+		Objects.requireNonNull(numeroCNPJ);
+		
 		this.nomeEmpresa = nomeEmpresa;
 		this.numeroCNPJ = numeroCNPJ;
-
+		
 	}
 
 	public String getNomeEmpresa() {

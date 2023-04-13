@@ -1,0 +1,16 @@
+package orientacaoobjetos.heranca.atividades.contapremium;
+
+import orientacaoobjetos.atividades.contas.Conta;
+
+public class ContaPremium extends Conta {
+
+	private String beneficios;
+
+	public ContaPremium(String beneficios) {
+		super();
+		this.beneficios = beneficios;
+	}
+
+	
+	
+}

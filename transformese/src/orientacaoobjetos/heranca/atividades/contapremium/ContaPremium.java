@@ -1,10 +1,32 @@
 package orientacaoobjetos.heranca.atividades.contapremium;
 
-import orientacaoobjetos.heranca.atividades.titular.Titular;
+import orientacaoobjetos.heranca.atividades.contas.ContaPf;
 
-public class ContaPremium {
+public class ContaPremium extends ContaPf {
 
-	private double saldo;
-	Titular titular;
+	private String beneficios;
+
+	public ContaPremium(int numeroConta, double saldo, String beneficios) {
+		super(numeroConta, saldo);
+		this.beneficios = beneficios;
+	}
+
+	public String getBeneficios() {
+		return beneficios;
+	}
+
+	public void setBeneficios(String beneficios) {
+		this.beneficios = beneficios;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
 	
+	public double emprestimo(double valor) {
+		this.saldo += valor;
+		return saldo;		
+	}	
+	
+
 }
