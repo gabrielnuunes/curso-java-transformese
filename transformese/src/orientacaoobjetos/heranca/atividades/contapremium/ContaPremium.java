@@ -5,6 +5,8 @@ import orientacaoobjetos.heranca.atividades.contas.ContaPf;
 public class ContaPremium extends ContaPf {
 
 	private String beneficios;
+	Pessoa titular;
+	Pessoa conjuge;
 
 	public ContaPremium(int numeroConta, double saldo, String beneficios) {
 		super(numeroConta, saldo);

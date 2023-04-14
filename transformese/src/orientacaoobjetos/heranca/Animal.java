@@ -4,12 +4,20 @@ public class Animal {
 
 	private String nome;
 	private String cor;
-	private String mover;	
+	private String mover;
+	//Pessoa dona;
+	
+	// Exemplo de sobrecarga de construtores
 	
 	// Construtor Padrão
 	public Animal() {
 
-	}
+	}	
+	
+	/*
+	 animal.nome = "rato";
+	 animal.dona.nome = "Tati"; 
+	  */
 
 	// 
 	public Animal(String nome, String cor, String mover) {
@@ -18,6 +26,12 @@ public class Animal {
 		this.mover = mover;
 	}
 
+	public Animal(String nome, String cor) {
+		this.nome = nome;
+		this.cor = cor;
+	}
+	
+	
 	public void animalMovendo() {
 		System.out.println("Animal está movendo.");
 	}
