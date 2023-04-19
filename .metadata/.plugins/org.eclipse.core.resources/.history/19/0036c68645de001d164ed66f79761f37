@@ -1,0 +1,19 @@
+package orientacaoobjetos.abstracao.interface1;
+
+public class FiatUno extends Carro implements FuncoesCarro, PacoteSimples{
+
+	public FiatUno(String nome, int portas, int rodas) {
+		super(nome, portas, rodas);
+	}
+
+	@Override
+	public void alarme() {
+	
+	}
+
+	@Override
+	public void freioDisco() {
+		
+	}
+
+}

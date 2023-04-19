@@ -1,0 +1,16 @@
+package orientacaoobjetos.polimorfismo.exemplo2.contas;
+
+public class ContaJuridica {
+
+    String numeroDaConta;
+    int numeroAgencia;
+    String nomeEmpresa;
+    
+	public ContaJuridica(String numeroDaConta, int numeroAgencia, String nomeEmpresa) {
+		this.numeroDaConta = numeroDaConta;
+		this.numeroAgencia = numeroAgencia;
+		this.nomeEmpresa = nomeEmpresa;
+	}
+	
+    
+}

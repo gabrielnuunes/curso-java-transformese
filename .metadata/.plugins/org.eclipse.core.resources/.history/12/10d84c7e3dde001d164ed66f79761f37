@@ -1,0 +1,11 @@
+package orientacaoobjetos.abstracao.interface1;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		Carro carro1 = new Carro("Uno", 2, 4);
+		
+	}
+	
+}

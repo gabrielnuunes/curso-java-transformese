@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfo"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.polimorfismo.exemplo2.contas.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.polimorfismo.exemplo2.contas.ContaCorrente"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.polimorfismo.exemplo2.contas.ContaJuridica"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.polimorfismo.exemplo4.contas.Conta"/>
+    <fullyQualifiedTypeName name="avaliacoes.exstatic.Calculadora"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.Carro"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.PacoteSimples"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.FuncoesCarro"/>
+    <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.Luxo"/>
 </qualifiedTypeNameHistroy>

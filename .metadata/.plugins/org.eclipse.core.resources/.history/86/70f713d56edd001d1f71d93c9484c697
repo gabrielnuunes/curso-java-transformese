@@ -1,0 +1,19 @@
+package orientacaoobjetos.polimorfismo.exemplo2.contas;
+
+public class ContaCorrente {
+
+	// Atributos
+    String numeroDaConta;
+    int numeroAgencia;
+    double emprestimo;
+    
+    // Construtor
+	public ContaCorrente(String numeroDaConta, int numeroAgencia, double emprestimo) {
+		this.numeroDaConta = numeroDaConta;
+		this.numeroAgencia = numeroAgencia;
+		this.emprestimo = emprestimo;
+	}
+    
+    
+	
+}

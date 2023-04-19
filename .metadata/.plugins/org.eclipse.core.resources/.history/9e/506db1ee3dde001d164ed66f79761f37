@@ -1,0 +1,9 @@
+package orientacaoobjetos.abstracao.interface1;
+
+public class FuncoesCarro {
+
+	public void ligarCarro() {
+		
+	}
+	
+}

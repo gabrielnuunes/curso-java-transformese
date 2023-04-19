@@ -1,0 +1,9 @@
+package orientacaoobjetos.abstracao.interface1;
+
+public class Tesla extends Carro{
+
+	public Tesla(String nome, int portas, int rodas) {
+		super(nome, portas, rodas);
+	}
+
+}

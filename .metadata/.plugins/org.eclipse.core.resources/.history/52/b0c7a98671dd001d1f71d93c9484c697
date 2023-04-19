@@ -1,0 +1,9 @@
+package orientacaoobjetos.polimorfismo.exemplo2.contas;
+
+public class Conta {
+
+	// Atributos
+    String numeroDaConta;
+    int numeroAgencia;
+	
+}

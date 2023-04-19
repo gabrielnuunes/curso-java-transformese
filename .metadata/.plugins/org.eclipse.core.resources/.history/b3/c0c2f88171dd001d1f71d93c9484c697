@@ -1,0 +1,5 @@
+package orientacaoobjetos.polimorfismo.exemplo2.contas;
+
+public class Conta {
+
+}

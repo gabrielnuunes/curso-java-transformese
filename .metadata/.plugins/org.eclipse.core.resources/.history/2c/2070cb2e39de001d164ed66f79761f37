@@ -1,0 +1,17 @@
+package avaliacoes.exstatic;
+
+public class TesteStatic {
+
+	public static void main(String[] args) {
+		
+		Calculadora calculadora1 = new Calculadora();
+		
+		calculadora1.somar(5, 2);
+		
+		Calculadora calculadora2 = new Calculadora();
+		Calculadora calculadora3 = new Calculadora();
+			
+	}
+	
+	
+}
