@@ -1,0 +1,19 @@
+package atividades.atividade1;
+
+public class Computador {
+
+	private boolean ligado;
+
+	public Computador(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public void ligar() {
+		ligado = true;
+	}
+	
+	public void desligar() {
+		ligado = false;
+	}
+	
+}

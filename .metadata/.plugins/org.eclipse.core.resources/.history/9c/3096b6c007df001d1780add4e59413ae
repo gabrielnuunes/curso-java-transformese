@@ -1,0 +1,9 @@
+package excecoes.exemplo1;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}
