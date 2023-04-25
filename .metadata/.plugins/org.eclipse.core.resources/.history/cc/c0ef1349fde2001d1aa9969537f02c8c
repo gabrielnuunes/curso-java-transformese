@@ -1,0 +1,18 @@
+package equalsehashcode;
+
+public class Pessoa {
+
+	String nome;
+	
+	//Sobrescrita
+	
+	public void dizBomDia() {
+		System.out.println("Olá, bom dia!");
+	}
+	
+	public void dizBomDia(String nome) {
+		System.out.println("Olá, bom dia!");
+	}
+    
+	
+}

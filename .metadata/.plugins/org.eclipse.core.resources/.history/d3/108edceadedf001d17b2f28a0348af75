@@ -1,0 +1,14 @@
+package lista;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class Exemplo1Lista {
+
+	public static void main(String[] args) {
+		
+		List<String> nomes = new ArrayList<>();
+		
+	}
+	
+}

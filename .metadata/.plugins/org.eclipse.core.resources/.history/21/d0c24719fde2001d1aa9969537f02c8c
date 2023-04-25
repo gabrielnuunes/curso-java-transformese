@@ -1,0 +1,11 @@
+package equalsehashcode;
+
+public class Pessoa {
+
+	String nome;
+	
+	//Sobrescrita
+	
+    
+	
+}

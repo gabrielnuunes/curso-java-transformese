@@ -1,0 +1,42 @@
+package equalsehashcode;
+
+public class Pessoa {
+
+	String nome;
+	
+	// Construtor padrão
+	Pessoa() {
+		
+	}
+	
+	Pessoa(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	//Sobrecarga
+	
+	public void dizBomDia() {
+		System.out.println("Olá, bom dia!");
+	}
+	
+	public void dizBoaTarde(String nome) {
+		System.out.println("Olá, bom dia " + nome);
+	}
+	
+	public void dizBoaNoite(String nome, int hora) {
+		System.out.println("Olá, bom dia " + nome + " agora são " + hora + " horas");
+	}
+	
+	// Método para cadastrar uma pessoa
+	
+	public void cadastrar(String nome, String cpf) {
+		System.out.println("Olá " + nome + " cadastro realizado.");
+	}
+	
+	// Exemplo de uma pessoa usando
+	
+	//pessoa1.cadastrar("Suda", 10, "São Paulo", "Analista");
+    
+	
+}

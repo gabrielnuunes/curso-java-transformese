@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfo"/>
     <fullyQualifiedTypeName name="orientacaoobjetos.polimorfismo.exemplo2.contas.ContaPoupanca"/>
     <fullyQualifiedTypeName name="orientacaoobjetos.polimorfismo.exemplo2.contas.ContaCorrente"/>
@@ -11,4 +10,11 @@
     <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.PacoteSimples"/>
     <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.FuncoesCarro"/>
     <fullyQualifiedTypeName name="orientacaoobjetos.abstracao.interface1.Luxo"/>
+    <fullyQualifiedTypeName name="excecoes.exemplo1.Sistema"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="atividades.atividade1.questao6.Computador"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

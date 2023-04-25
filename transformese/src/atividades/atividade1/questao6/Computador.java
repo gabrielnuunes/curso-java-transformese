@@ -26,4 +26,11 @@ public class Computador {
 		
 	}
 	
+	
+	String estaLigado;
+	
+	
+	
+	
+	
 }

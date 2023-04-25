@@ -1,0 +1,21 @@
+package equalsehashcode;
+
+public class Exemplo1Equals {
+
+	public static void main(String[] args) {
+		
+		Pessoa pessoa1 = new Pessoa();
+		pessoa1.nome = "Gabriel";
+		
+		Pessoa pessoa2 = new Pessoa();
+		pessoa2.nome = "Gabriel";
+		
+		// Utilizando o Equals
+		// Ele retorna verdadeiro ou falso
+		
+		System.out.println(pessoa1 == pessoa2);
+		
+		
+	}
+	
+}

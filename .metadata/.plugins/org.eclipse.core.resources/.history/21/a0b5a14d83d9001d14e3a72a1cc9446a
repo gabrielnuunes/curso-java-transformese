@@ -1,8 +1,0 @@
-package orientacaoobjetos.heranca.atividades.contapremium;
-
-public class ContaPremium {
-
-	private String beneficios;
-
-	
-}
