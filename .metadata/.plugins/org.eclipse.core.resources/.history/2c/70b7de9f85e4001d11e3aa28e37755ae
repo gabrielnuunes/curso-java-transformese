@@ -1,0 +1,8 @@
+package equalsehashcode.exemplo3;
+
+public class Produto {
+
+	String id;
+	String descricao;
+	
+}

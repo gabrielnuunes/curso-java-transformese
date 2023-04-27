@@ -1,8 +1,0 @@
-package orientacaoobjetos.abstracao.interface1;
-
-public interface PacoteSimples {
-
-	public abstract void alarme();
-	public abstract void freioDisco();
-	
-}

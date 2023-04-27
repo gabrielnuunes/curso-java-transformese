@@ -1,0 +1,12 @@
+package equalsehashcode;
+
+public class Exemplo2 {
+
+	public static void main(String[] args) {
+		
+		String nome1 = "Tati";
+		String nome2 = "Ariel";
+		
+	}
+	
+}

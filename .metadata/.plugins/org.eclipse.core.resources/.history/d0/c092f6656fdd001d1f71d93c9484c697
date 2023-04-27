@@ -1,9 +1,0 @@
-package orientacaoobjetos.polimorfismo.exemplo2.contas;
-
-public class ContaJuridica {
-
-    String numeroDaConta;
-    int numeroAgencia;
-    String nomeEmpresa;
-	
-}

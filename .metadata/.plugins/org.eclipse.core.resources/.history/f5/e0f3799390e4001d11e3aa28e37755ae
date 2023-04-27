@@ -1,0 +1,15 @@
+package conjuntos;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		//Criando um conjunto em Java
+		Set<String> nomes = new HashSet<>();
+		
+	}
+	
+}
