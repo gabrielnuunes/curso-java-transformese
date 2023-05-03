@@ -20,7 +20,22 @@ public class ExemploOperacoes {
 		grupoUniao.addAll(grupo2);
 		System.out.println("Resultado da união do grupo1 com o grupo2");
 		System.out.println(grupoUniao);
+		
+		//Set<String> somaDosTres = new TreeSet<>(grupoUniao);
 
+		// 3 - Aqui estamos pegando os elementos em comum
+		Set<String> pessoasEmComum = new TreeSet<>(grupo1);
+		
+		pessoasEmComum.retainAll(grupo2);
+		
+		System.out.println("Mostrando as pessoas em comum aos dois grupos");
+		System.out.println(pessoasEmComum);
+		
+		// 4 - Pegando pessoas que pertencem a um único grupo
+		Set<String> grupoDiferenca = new TreeSet<>(grupo1);
+		grupoDiferenca.removeAll(grupo2);
+		System.out.println("Pessoas que só pertecem ao grupo 1.");
+		System.out.println(grupoDiferenca);
 		
 	}
 	

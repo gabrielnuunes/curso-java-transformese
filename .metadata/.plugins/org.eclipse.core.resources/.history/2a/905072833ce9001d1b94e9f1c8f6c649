@@ -1,0 +1,5 @@
+package injecaodependencias.servico;
+
+public class AtivacaoClienteService {
+
+}

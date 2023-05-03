@@ -1,0 +1,5 @@
+package injecaodependencias.notificao;
+
+public class NotificcarPorSMS {
+
+}

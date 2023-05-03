@@ -1,0 +1,34 @@
+package mapas.exemplo1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Sistema {
+
+	private static final String Map = null;
+
+	public static void main(String[] args) {
+		
+		Proprietario tati = new Proprietario("Tati", "000.000.000-00");
+		Proprietario ariel = new Proprietario("Ariel", "000.000.000-00");
+		
+		Carro carro1 = new Carro("AAA-1111", "Fiat Uno");
+		Carro carro2 = new Carro("BBB-2222", "VW Gol");
+		
+		// Criando o nosso Mapa
+		Map<Carro, Proprietario> proprietarios = new HashMap<>();
+
+		// Adicionando os elementos ao Mapa
+		proprietarios.put(carro1, tati);
+		proprietarios.put(carro2, ariel);
+		
+		// Objeto = instância
+		// Mostrando os elementos do Mapa
+		
+		System.out.println(proprietarios);
+		
+		//  2 == 2 verdadeiro
+		//  carro1 == carro2 Falso
+	}
+	
+}

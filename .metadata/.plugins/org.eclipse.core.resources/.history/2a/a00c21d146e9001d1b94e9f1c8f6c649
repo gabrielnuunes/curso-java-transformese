@@ -1,0 +1,18 @@
+package injecaodependencias.servico;
+
+import injecaodependencias.modelo.Cliente;
+import injecaodependencias.modelo.Produto;
+import injecaodependencias.notificao.NotificarPorEmail;
+
+public class EmissaoNotaFiscalService {
+
+	public void emitir (Cliente cliente, Produto produto) {
+	
+		NotificarPorEmail notificador = new NotificarPorEmail();
+
+		notificador.notificar(cliente, "Sr.(a) " + cliente.getNome() + " Nota fiscal do produto "
+				+ produto.getNome() + " foi emitida!");
+		
+	}
+	
+}

@@ -1,0 +1,14 @@
+package injecaodependencias;
+
+import injecaodependencias.modelo.Cliente;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		Cliente tati = new Cliente("Tati", "tati@email.com", "009999-8888");
+		Cliente ariel = new Cliente("Ariel", "ariel@email.com", "1177776666");
+		
+	}
+	
+}

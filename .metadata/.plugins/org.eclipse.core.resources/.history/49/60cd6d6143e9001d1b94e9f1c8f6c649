@@ -1,0 +1,12 @@
+package injecaodependencias.servico;
+
+import injecaodependencias.modelo.Cliente;
+import injecaodependencias.modelo.Produto;
+
+public class EmissaoNotaFiscalService {
+
+	public void emitir (Cliente cliente, Produto produto) {
+		
+	}
+	
+}

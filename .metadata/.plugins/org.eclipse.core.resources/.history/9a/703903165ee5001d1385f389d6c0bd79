@@ -1,0 +1,48 @@
+package mapas.exemplo1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Sistema {
+
+	private static final String Map = null;
+
+	public static void main(String[] args) {
+		
+		Proprietario tati = new Proprietario("111.111.111-11", "Tati");
+		Proprietario ariel = new Proprietario("000.000.000-00", "Ariel");
+		Proprietario ariel = new Proprietario("222.222.222-22", "Suda");
+		
+		Carro carro1 = new Carro("AAA-1111", "Fiat Uno");
+		Carro carro2 = new Carro("BBB-2222", "VW Gol");
+		Carro carro3 = new Carro("CCC-3333", "Porsche");
+		
+		
+		// Criando o nosso Mapa
+		Map<Carro, Proprietario> proprietarios = new HashMap<>();
+
+		// Adicionando os elementos ao Mapa
+		proprietarios.put(carro1, tati);
+		proprietarios.put(carro2, ariel);
+		
+		// Objeto = instância
+		// Mostrando os elementos do Mapa
+		
+//		System.out.println(proprietarios);
+		
+//		System.out.println(carro1.getPlaca());
+//		System.out.println(carro1);
+		
+		// Mostrando os elementos de um Mapa usando o forEach
+//		for (Carro carro : proprietarios.keySet()) {
+//			System.out.println(carro);
+//		}
+		
+		// Mostrando os proprietarios
+		for (Proprietario dono : proprietarios.values()) {
+			System.out.println(dono);
+		}
+		
+	}
+	
+}

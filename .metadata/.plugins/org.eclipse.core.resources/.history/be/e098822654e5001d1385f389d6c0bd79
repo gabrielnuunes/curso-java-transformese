@@ -1,0 +1,18 @@
+package mapas.exemplo1;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		Proprietario tati = new Proprietario("Tati", "000.000.000-00");
+		Proprietario ariel = new Proprietario("Ariel", "000.000.000-00");
+		
+		Carro carro1 = new Carro("AAA-1111", "Fiat Uno");
+		Carro carro2 = new Carro("BBB-2222", "VW Gol");
+
+		
+		// Pessoa, Carro, Sistema
+		// 
+	}
+	
+}

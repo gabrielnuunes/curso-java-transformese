@@ -1,0 +1,18 @@
+package injecaodependencias.servico;
+
+import injecaodependencias.modelo.Cliente;
+import injecaodependencias.notificao.NotificarPorEmail;
+import injecaodependencias.notificao.NotificarPorSMS;
+
+public class AtivacaoClienteService {
+
+	public void ativar(Cliente cliente) {
+		cliente.ativar();
+		
+		System.out.println("O cliente foi ativado");
+		
+		NotificarPorSMS notificarEmail = new NotificarPorSMS();
+		
+		notificarEmail.notificar(cliente, "Seu cadastro está ativado");
+	}	
+}

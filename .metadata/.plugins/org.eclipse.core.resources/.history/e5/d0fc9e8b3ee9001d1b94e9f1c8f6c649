@@ -1,0 +1,10 @@
+package injecaodependencias.servico;
+
+import injecaodependencias.modelo.Cliente;
+
+public class AtivacaoClienteService {
+
+	public void ativar(Cliente cliente) {
+		cliente.ativar();
+	}	
+}

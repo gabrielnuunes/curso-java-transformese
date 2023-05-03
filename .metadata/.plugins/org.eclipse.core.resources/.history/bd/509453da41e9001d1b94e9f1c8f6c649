@@ -1,0 +1,28 @@
+package injecaodependencias;
+
+import injecaodependencias.modelo.Cliente;
+import injecaodependencias.servico.AtivacaoClienteService;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		Cliente tati = new Cliente("Tati", "tati@email.com", "009999-8888");
+		Cliente ariel = new Cliente("Ariel", "ariel@email.com", "1177776666");
+		
+		AtivacaoClienteService ativacaoCliente = new AtivacaoClienteService();
+		
+		// Verificando se eles estão ativados no sistema
+		System.out.println(tati.isAtivo());
+		System.out.println(ariel.isAtivo());
+		
+		// Ativando os clientes
+		ativacaoCliente.ativar(ariel);
+		ativacaoCliente.ativar(tati);
+		
+		// Verificando se eles estão ativados no sistema
+		
+		
+	}
+	
+}
