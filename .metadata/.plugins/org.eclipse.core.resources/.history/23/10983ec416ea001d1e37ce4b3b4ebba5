@@ -1,19 +1,10 @@
 package injecaodependencias.servico;
 
 import injecaodependencias.modelo.Cliente;
-import injecaodependencias.notificao.Notificador;
+import injecaodependencias.notificao.NotificarPorEmail;
 import injecaodependencias.notificao.NotificarPorSMS;
 
 public class AtivacaoClienteService {
-
-	private Notificador notificador;
-	
-	
-	public AtivacaoClienteService(Notificador notificador) {
-		this.notificador = notificador;
-	}
-
-
 
 	public void ativar(Cliente cliente) {
 		cliente.ativar();
